@@ -1,0 +1,34 @@
+[theme]
+# Portfolio theme configuration
+primaryColor = "#1f77b4"  # Blue color matching your portfolio
+backgroundColor = "#ffffff"  # White background
+secondaryBackgroundColor = "#f8f9fa"  # Light gray for cards
+textColor = "#2c3e50"  # Dark text color
+
+[server]
+# Server configuration
+headless = true
+port = 8501
+enableCORS = false
+enableXsrfProtection = false
+
+[browser]
+# Browser configuration
+gatherUsageStats = false
+showErrorDetails = true
+
+[runner]
+# Runner configuration
+magicEnabled = true
+installTracer = false
+fixMatplotlib = true
+
+[logger]
+# Logging configuration
+level = "info"
+messageFormat = "%(asctime)s %(message)s"
+
+[client]
+# Client configuration
+showErrorDetails = true
+toolbarMode = "minimal"

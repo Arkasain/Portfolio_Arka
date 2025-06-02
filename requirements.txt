@@ -1,0 +1,32 @@
+# Core Streamlit Framework
+streamlit>=1.28.0
+
+# Data Manipulation and Analysis
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Data Visualization
+plotly>=5.15.0
+
+# Optional: Additional data science libraries (if you plan to extend functionality)
+# Uncomment these if you add more features to your portfolio
+
+# Machine Learning (for future ML demos)
+# scikit-learn>=1.3.0
+
+# Additional plotting libraries
+# matplotlib>=3.7.0
+# seaborn>=0.12.0
+
+# For handling different data formats
+# openpyxl>=3.1.0  # Excel files
+# xlsxwriter>=3.1.0  # Excel writing
+
+# Web scraping (if needed for dynamic data)
+# requests>=2.31.0
+# beautifulsoup4>=4.12.0
+
+# For enhanced styling and components
+# streamlit-option-menu>=0.3.6  # Better navigation menus
+# streamlit-lottie>=0.0.5  # Animations
+# streamlit-aggrid>=0.3.4  # Enhanced data tables
